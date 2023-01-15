@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(182, 192, 218);
+    padding: 0.125em;
+    border-radius: 1.5625em;
+}
+
+p {
+    font-size: 1em;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.625em;
+}
+
+section {
+    background-color: #FFF5EE;
+    border-radius: 0.9375em;
+    text-align: center;
+    margin: 0.625em;
+}
+
+section a {
+    color: black;
+}
+
+h2, h3, p {
+    color: hsla(200, 0%, 0%, .7);
+}
+
+.description {
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(182, 192, 218);
+    border-radius: 1.25em;
+    padding: 0.0625em;
+}
+
+footer a {
+    color: hsla(200, 0%, 0%, .7);
+}
+
+.responsive {
+    max-width: 23em;
+    width: 100%;
+    height: auto;
+    padding: 0.625em;
+    border-radius: 2em;
+}
+
+.outer {
+    text-align: center;
+    line-height: 0.7;
+}
+
+.up {
+    font-size: 0.9375em;
+}
+
+.date {
+    color: hsla(200, 0%, 0%, .7);
+}
