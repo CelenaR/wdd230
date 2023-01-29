@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Celena Rousculp" />
+    <meta
+      name="description"
+      content="WDD-230 Week 04 Celena Rousculp"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+   
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="logo" href="images/logo.jpg" />
+    <link rel="facebook" href="images/facebook.png"/>
+    <link rel="twitter" href="images/twitter.png"/>
+    <title>Fort Worth</title>
+  </head>
+
+  <div id="social-icons">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+  </div>
+
+  <body onload="change()">
+    <header>
+        <div class="head1">
+        <img
+          src="images/logo.jpg"
+          alt="city logo"
+          class="responsives"
+          width="100"
+          height="100"
+        />
+        
+        <h1>Fort Worth City of Commerce</h1>
+        <div class="motto">
+          "Everything's Bigger in<i> Texas </i> "
+        </div>
+      </div>
+      <nav>
+      
+        <ul class="nav">
+          <li><a href="#" onclick="Menu()">&#9776;Menu</a></li>
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Hero with site name and called to action</a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Weather</a></li>
+          <li><a href="#">News Release</a></li>
+          <li><a href="#">Spotlight 1</a></li>
+          <li><a href="#">Spotlight 2</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <header>
+      <nav>
+        <a href="#" id="hamburger-icon">&#9776;</a>
+      </nav>
+    </header>
+    <main>
+      <h2 class="heading">Fort Worth, Texas</h2>
+      <div class="contents">Hero image and called to action</div>
+      <div class="contents">News</div>
+      <div class="contents">Events</div>
+      <div class="contents">Weather</div>
+      <div class="contents">Join</div>
+      <div class="contents">Spotlight 1</div>
+      <div class="contents">Spotlight 2</div>
+      
+    </main>
+    <footer>
+      <div class="outer">
+        <p class="up">
+          &#169;<span id="Year"></span> Fort Worth City of Commerce | Celena Rousculp | WDD 230 Project |
+          <a href="https://www.byui.edu/online" target="_blank">
+            BYUI Online Learning</a
+          >
+          <img
+          src="images/fortworthmap.jpg"
+          alt=""
+          class="responsives"
+          width="100"
+          height="70"
+        />
+        </p>
+        <p class="date">Last Modified : January 28, 2003 <span id="LastUpdate"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/last-modified.js"></script>
+  </body>
+</html>

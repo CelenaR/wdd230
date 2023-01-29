@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+main{
+    background-color: #D5E0E6;
+    text-align: center;
+    padding: 0.7em;
+    
+}
+.head1 {
+  background-color: #041a4d;
+  padding: 0.9em;
+}
+.responsives{
+    float: left;
+}
+
+#social-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.fa-facebook {
+  color:black;
+}
+.fa-twitter {
+  color:black;
+}
+
+#social-icons a {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+main div{
+font-size: 1.3em;
+}
+
+.head1 h1,
+.motto {
+  color: #fafefd;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #778DA9;
+  color: black;
+  padding: 0.69em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+nav ul .active {
+  background-color: rgb(222, 234, 239);
+  border-radius: 1.5em;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+ul li:first-child {
+  display: block;
+}
+
+ul li {
+  display: none;
+}
+
+ul a {
+  color: black;
+  display: block;
+  padding: 0.5em;
+  border-radius: 1.5265em;
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+ul a:hover {
+  background-color: #f9f4ef;
+}
+
+.responsive li {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.heading {
+    text-align: center;
+    
+  }
+
+  #hamburger-icon {
+    float: right;
+    
+  }
+
+  .contents{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed whitesmoke;
+    padding: 15px;
+    background-color: rgb(91, 89, 89);
+    color: white;
+    font-style: italic;
+  }
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.04em;
+  background-color: #a2b3d4;
+}
+footer a {
+  color: black;
+}
