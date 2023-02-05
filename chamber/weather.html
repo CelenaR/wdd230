@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Section</title>
+    <meta name="description" content="All the weather will be on this page.">
+
+    <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/pancakes.js"></script>
+    <div id="pan" class="cakes">"Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    </div>
+
+    <header>
+        <picture class="logo">
+            <img src="images/logo.jpg" alt="logo of Fort Worth Chamber of Commerce.">
+        </picture>
+        <section class="heading">
+            <h1>Welcome to Fort Worth, Texas!</h1>
+            <div class="motto">Everything's Bigger in Texas!</div>
+        </section>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li class="active"></li><a href="weather.html">Weather</a></li>
+            <li><a href="employment.html">Employment</a></li>
+            <li><a href="entertainment.html">Entertainment</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Fort Worth, Texas</h2>
+        <hr>
+        
+        <div class="banner-box">
+
+            <picture>
+                <source class="hero" media="(min-width: 300px) and (max-width:500px)" srcset="images/nature300min.jpg">
+                <source media="(min-width: 500px) and (max-width:500px)" srcset="images/nature700minlesson9.jpg">
+                <source media="(min-width: 500px)" srcset="images/city.jpg"> 
+                <img src="images/city.jpg" width= 900px height= 500px alt="downtown Fort Worth"> 
+            </picture>
+            <hr>
+            <section class="weathersummary">
+
+                <h3>Our Weather Today</h3>
+                <hr>
+                <p>Current Conditions: Clear<span id="weather"></span></p>
+                <p>Current Temperature: 41 Degrees<span id="temp"></span> °F</p>
+                <p>Feels Like: 34 Degrees<span id="feelslike"></span> °F</p>
+                <p>Humidity: 78% <span id="humidity"></span> %</p>
+                <p>Wind Speed: 23 mph<span id="speed"></span> mph</p>
+                <p>Wind Chill: N/A<span id="windchill"></span> °F</p>
+                <hr>
+
+                <picture>
+                    <source class="hero" media="(min-width: 300px) and (max-width:500px)" srcset="images/forecast.jpg">
+                    <source media="(min-width: 500px) and (max-width:500px)" srcset="images/forecast.jpg">
+                    <source media="(min-width: 500px)" srcset="images/forecast.jpg"> 
+                    <img src="images/forecast.jpg" width= 700px height= 400px alt="forecast"> 
+                </picture>
+            </section>
+
+        </div>
+
+        <div class="contentbox">
+
+            <table class="center">
+                <tr>
+                    <caption>Temperature Forecast at 18:00:00 <br> (5 days a week)</caption>
+                    
+                        <th><span id="week_day1"></span></th> 
+                        <th><span id="week_day2"></span></th> 
+                        <th><span id="week_day3"></span></th> 
+                        <th><span id="week_day4"></span></th> 
+                        <th><span id="week_day5"></span></th> 
+                        
+                </tr>
+
+                <tr>      
+                    <td><span id="imagesrc1"></span><img id="icon1" src="#"
+                            alt="d"></td>
+                    <td><span id="imagesrc2"></span><img id="icon2" src="#"
+                            alt="d"></td>
+                    <td><span id="imagesrc3"></span><img id="icon3" src="#"
+                            alt="d"></td>
+                    <td><span id="imagesrc4"></span><img id="icon4" src="#"
+                            alt="d"></td>
+                    <td><span id="imagesrc4"></span><img id="icon5" src="#"
+                            alt="d"></td>
+                </tr>
+                
+                <tr>
+                    <th ><span id="temp1"></span>°F</th> 
+                    <th ><span id="temp2"></span>°F</th> 
+                    <th ><span id="temp3"></span>°F</th> 
+                    <th ><span id="temp4"></span>°F</th> 
+                    <th ><span id="temp5"></span>°F</th> 
+                    
+                </tr>
+
+            </table>
+
+            <hr>
+
+        </div>
+        <div class="contentbox">
+            <h3>Saying Goodbye to Our Last Week of Ice</h3>
+            <hr>
+            
+            <img class="ice" src="images/ice.jpg" alt="icy roads.">
+            <p>The latest wave of wintry precipitation has left some travelers stranded in Fort Worth, as others brave icy conditions to get to their destinations.</p>
+            
+            <p>The ice and long stretch of freezing temperatures are over. Widespread rain and warmer temps are in the forecast this week. </p>
+            
+            <p>For most of Wednesday, highways in parts of Tarrant County have been largely passable. Though, some slick spots remain. Access and side roads have been icy, while sheets of ice glazed over many parking lots. <strong>See more...</strong></p>
+        </div>
+
+        <section class="contentbox4">
+            
+            <div class="map">
+                <img src="images/fortworthmap.jpg" width=200px, height=200px alt="Fort Worth map"></div>
+
+            <div>
+                <h3>Contact Information</h3>
+                <p><span>&#x1F4CC;</span>200 Texas St. Fort Worth TX 76102-6311</p>
+                <p><span>&#x1F4DE;</span>(817) 392-6118</p>
+                <p><span>&#x1F4E7;</span>fortworthcommerce@yourfortworth.info</p>
+
+                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                        alt="Facebook logo"></a>
+
+                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
+                        alt="Twiter logo"></a>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Copyright 2023 | Celena Rousculp | BYU-I Online Learning</p>
+        <div><span id="currentdate"></span></div>
+    </footer>
+
+    <script src="scripts/pancakes.js"></script>
+    <script src="scripts/last-modified.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/webfontload.js"></script>
+    <script src="scripts/json.js"></script>
+</body>
+
+</html>
