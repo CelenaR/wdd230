@@ -8,8 +8,6 @@
     <meta name="description" content="Home page information.">
 
     <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
-    <!--<a href="https://icons8.com/icon/67607/sun">Sun icon by Icons8</a>
-    <a href="https://icons8.com/icon/KXHiLGrszdFI/wind">Wind icon by Icons8</a>-->
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
@@ -17,6 +15,7 @@
 </head>
 
 <body onload="currentDate(); pancakes()">
+    <script src="scripts/currentdate.js"></script>
     <script src="scripts/last-modified.js"></script>
     <script src="scripts/pancakes.js"></script>
     <div id="pan" class="cakes">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
@@ -27,7 +26,7 @@
             <img src="images/logo.jpg"alt="Fort Worth Commerce logo.">
         </picture>
         <section class="heading">
-            <h1>Welcome to Fort Worth, Texas!</h1>
+            <h1>Welcome to Fort Worth, Texas</h1>
             <div class="motto">Everything's Bigger in Texas!</div>
         </section>
 
@@ -53,7 +52,7 @@
                 <source class="hero" media="(min-width: 300px) and (max-width:500px)" srcset="images/longhorns.jpg">
                 <source media="(min-width: 500px) and (max-width:500px)" srcset="images/longhorns.jpg">
                 <source media="(min-width: 500px)" srcset="images/longhorns.jpg"> 
-                <img src="images/longhorns.jpg" width= 900px height= 500px alt="image of longhorns"> 
+                <img src="images/longhorns.jpg" width= 800px height= 500px alt="image of longhorns"> 
             </picture>
             <hr>
         </div>
@@ -73,6 +72,7 @@
             <h3>Weather</h3>
             <p>Wintry conditions led to the deaths of at least 10 people in the South. More than 300,000 customers in Texas were still without electricity on Thursday. </p>
             <p>Freezing rain or sleet in Texas was expected to change to rain on Thursday night as temperatures rise above freezing, according to the National Weather Service. Slick roadways could refreeze <br>overnight, but temperatures were expected to rise into the 40s on Friday, allowing for “the widespread thaw that we have all been waiting for,” the Weather Service in Fort Worth said in an update.</p>
+            
             <h3>Top Growing Jobs in North Texas</h3>
             <p> Here is our list of top jobs in the area: Operations Research Analysts,
                 Physician Assistants,
@@ -80,6 +80,7 @@
                 Nurse Practitioners,
                 Software Developers, <strong>See more...</strong>
             </p>
+
             <h3>Entertainment</h3>
             <p>There's so much to love about Fort Worth, so this February take some time to get out and do something new. Here’s our guide to fun this month in Fort Worth.<strong> See more...</strong>
 
@@ -114,18 +115,13 @@
     <footer>
         <p><span id="copy">&copy;</span> Copyright 2023 | Celena Rousculp | BYU-I Online Learning</p>
         <div><span id="currentdate"></span></div>
-        <script src="scripts/last-modified.js" defer></script>
     </footer>
 
+    <script src="scripts/last-modified.js" defer></script>
     <script src="scripts/pancakes.js"></script>
-    
-    
-    <script src="scripts/toggle.js"></script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/toggle.js"></script>  
     <script src="scripts/webfontload.js"></script>
-    
     <script src="scripts/json.js"></script>
 </body>
 

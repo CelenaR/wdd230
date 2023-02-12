@@ -21,14 +21,11 @@ fetch(five_dayapiURL)
             document.getElementById('#temp' + (this_day + 1)).textContent = (jsObject.main.temp).toFixed(2);
 
          
-
             const imagesrc = `https://weather.com/weather/today/l/c40fc4b0ff0c7ce4876ea65e63fe28611e491c3d17be41dd0b4ddaa4f434f536${jsObject.weather[0].icon}.png`; 
             const d = jsObject.weather[0].description; 
             document.getElementById('imagesrc'+ (this_day + 1)).textContent = imagesrc;
             document.getElementById('icon' + (this_day + 1)).setAttribute('src', imagesrc);
             document.getElementById('icon' + (this_day + 1)).setAttribute('alt', d);
-
-
 
 
         });
