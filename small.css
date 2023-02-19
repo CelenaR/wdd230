@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+header,
+h1,
+h2,
+footer,
+ul,
+il {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    color: white;
+    background-color: #012843;
+    text-align: center;
+
+}
+
+.cakes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #b6e0f2;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.heading h1 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.motto {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 5px;
+    color: white;
+}
+
+nav {
+    font-size: 20px;
+    width: 100%;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.myimage {
+    display: block;
+    width: 96%;
+}
+
+.main-image {
+    display: block;
+    width: 100%;
+    margin: 0 2%;
+}
+
+
+.banner-box {
+    
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin: 0%;
+}
+
+.weathersummary {
+
+    font-family: 'Roboto', sans-serif;
+    top: 10px;
+    left: 10px;
+    background: radial-gradient(#eee, #bbc4d8);
+    padding: 9px;
+    padding-top: 5px;
+    box-shadow: 0 0 20px #111;
+    opacity: .8;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+}
+
+ul,
+li {
+    font-size: 18px;
+}
+
+
+footer {
+    color: white;
+    background-color: #0c2e46;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+header,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 10px;
+}
+
+picture {
+    padding: 5px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+ h4 {
+     margin:7px auto 10px auto;
+
+ }
+
+
+  h2{
+margin:13px ; 
+ }
+
+
+nav {
+    background-color: #55719b;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li.active a {
+    background-color: #001524;
+    color: white;
+
+}
+
+
+nav a:hover {
+    background-color: #eae6b2;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+.mygallery {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 230px;
+    justify-content: center;
+    grid-row-gap: 10px;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+figure{
+    margin: 0 auto;
+}
+
+img[data-src] {
+    filter: blur(3px);
+}
+
+.mygallery figcaption {
+    background-color: #FFECD1;
+    border: thin silver solid;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+
+ .mygallery img {
+    filter: blur(0px);
+    transition: filter 0.6s;
+    max-width:100%; 
+}
+
+
+#copy {
+    font-size: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+th,
+td {
+    text-align: center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ice {
+    float: right;
+    box-shadow: 0 0 20px #111;
+    margin: 5px;
+    
+}
+
+.downtown {
+    float: right;
+    box-shadow: 0 0 20px #111;
+    margin: 5px; 
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 50px lightgray;
+}
+
+.contentbox4 {
+    
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.social {
+    text-align: left;
+}
+
+.social img {
+    width: 35px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+.news {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+
+#copy {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+
+#weathersite { 
+    color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: whitesmoke;
+    margin: 8px;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 50px gray;
+    grid-gap: 5px;
+
+}
+
+
+.cards p {
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.cards section {
+    background-color: lightgray;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 50px lightgray;
+    margin: 5px;
+}
+
+.cards img {
+    margin: 10px auto 10px auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.news {
+    background-color: whitesmoke;
+    padding: 10px;
+}
