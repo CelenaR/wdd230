@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Table Build</title>
-    <meta name="description" content="All the weather will be on this page.">
+    <meta name="description" content="Table Build information.">
 
     <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
     
@@ -19,92 +19,124 @@
 <body onload="currentDate(); pancakes()">
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/pancakes.js"></script>
-    <div id="pan" class="cakes">"Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
-    </div>
+    
 
     <header>
-        <picture class="logo">
-            <img src="images/logo.jpg" width= 250px height= 50px alt="logo"> 
-        </picture>
-        <section class="heading">
-            <h1>Welcome to Fort Worth, Texas!</h1>
-            <div class="motto">Everything's Bigger in Texas!</div>
+            <section class="heading">
+            <h1>Lesson 8- Table Build</h1>
         </section>
 
     </header>
-    <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="index2.html">Home</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="weather.html">Weather</a></li>
-            <li><a href="discover.html">Gallery</a></li>
-            <li><a href="join.html">Join</a></li>
-        </ul>
-    </nav>
-
-    <table>
-        <caption><h2>ACME Wildwest</h2></caption>
-        
-        <thead>
-            <tr>
-                <td>Basic</td>
-                <td>Premium</td>
-                <td>Deluxe</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Feature 1</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td>Feature 2</td>
-                <td>No</td>
-                <td>Yes</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td>Feature 3</td>
-                <td>No</td>
-                <td>No</td>
-                <td>Yes</td>
-            </tr>
-            
-        </tbody>  
-        <tfoot>
-            <tr>
-                <td colspan="3">Compiled 2/23/2023 by Celena</td>
-            </tr>
-        </tfoot>     
-    </table> 
-           
-
-            
-        <section class="contentbox4">
-            
-            <div class="map">
-                <img src="images/fortworthmap.jpg" width=200px, height=200px alt="Fort Worth map"></div>
-
-            <div>
-                <h3>Contact Information</h3>
-                <p><span>&#x1F4CC;</span>200 Texas St. Fort Worth TX 76102-6311</p>
-                <p><span>&#x1F4DE;</span>(817) 392-6118</p>
-                <p><span>&#x1F4E7;</span>fortworthcommerce@yourfortworth.info</p>
-
-                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
-                        alt="Facebook logo"></a>
-
-                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
-                        alt="Twiter logo"></a>
-                
-            </div>
-
-        </section>
-
-    </main>
+    
+    <body>
+       
+        <main>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="4">Acme Wild West Services</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Basic</th>
+                <th scope="col">Premium</th>
+                <th scope="col">Deluxe</th>
+              </tr>
+              <tr>
+                <th scope="row">Feature 1</th>
+                <td>
+                  <img
+                    src="images/checkmark.png"
+                    alt="checkmark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="images/checkmark.png"
+                    alt="checkmark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="images/checkmark.png"
+                    alt="checkmark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Feature 2</th>
+                <td>
+                  <img
+                    src="images/xmark.png"
+                    alt="X mark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="images/checkmark.png"
+                    alt="checkmark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="images/checkmark.png"
+                    alt="checkmark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Feature 3</th>
+                <td>
+                  <img
+                    src="images/xmark.png"
+                    alt="X mark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="images/xmark.png"
+                    alt="X mark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="images/checkmark.png"
+                    alt="checkmark"
+                    width="25"
+                    height="25"
+                  />
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Table 1: Account Feature Comparison</td>
+              </tr>
+            </tfoot>
+          </table>
+        </main>
+      </body>
+    </html>
+                      
+        </main>
 
     <footer>
         <p><span id="copy">&copy;</span> Copyright 2023 | Celena Rousculp | BYU-I Online Learning</p>
@@ -116,9 +148,6 @@
     <script src="scripts/toggle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/webfontload.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/forecast.js"></script>
-    <script src="scripts/fortworthweather.js"></script>
     <script src="scripts/json.js"></script>
     <script src="scripts/announcement.js"></script>
     

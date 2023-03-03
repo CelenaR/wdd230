@@ -1,135 +1,40 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
-    justify-content: center;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: rgb(7, 13, 108);
-}
-
-#announcement, #display{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-}
-
-header img {
-    float: right;
-}
-
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(59, 23, 143);
-    margin: 0 auto;
-    text-align: center;
-}
-
-table, caption {
-    box-shadow: 10px 5px 10px #888888;
-    padding: 10px;
-}
-
-caption {
-    border: 2px solid lightgrey;
-    border-bottom: 0;
-    background-color: #7fb9c2;
-    font-weight: bold;
-}
-
-thead {
-    font-weight: bold;
-}
-
-thead, .change {
-    background-color: #628ca6;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #e7f0ed;
-}
-
-tr:nth-child(5) td:nth-child(1) {
-    font-style: italic;
-}
-
-td, th {
-    border: 1px solid lightgrey;
-    padding: 10px;
-}
-
-tbody {
-    background-color: #e7ffed;
-}
-
-tfoot {
-    background-color: #7fb9c2;
-    font-size: 10px;
-}
-
-img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+* {
+    font-family: "Roboto", sans-serif;
   }
-
-.navigation li:first-child {
+  
+  body {
     text-align: center;
-    display: block; 
-    text-decoration: none;
-}
-
-.active {
-    background-color: lightblue;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-nav ul {
-    padding: 0;
-}
-
-nav li {
-    display: none;
-}
-
-nav li a:hover{
-    text-decoration: underline;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-}
-
-.response li {
-    display: block;
-    text-align: center;    
-}
-
-.response nav li {
-    display: block;
-}
-
-footer {
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: rgb(30, 11, 99);
-}
-
-footer a, #year {
-    display: inline-block;
-}
-
-img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 100px auto;
   }
+  
+  table {
+    margin: 100px auto;
+  }
+  
+  table tbody {
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+  }
+  
+  td,
+  th {
+    font: 2em;
+    padding: 10px;
+  }
+  
+  thead {
+    background: #220469;
+    color: #fdf6e3;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #90b0f6;
+  }
+  tbody tr:nth-child(even) {
+    background: #7770db;
+  }
+  tfoot {
+    font-weight: bold;
+  }
+  
