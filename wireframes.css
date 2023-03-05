@@ -1,0 +1,25 @@
+* {
+    font-family:  'Roboto', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: grid;
+    grid-template-columns: 75px auto;
+    width: calc(75px + 220px);
+    transition: all 0.3s;
+    align-items: center;
+    margin-bottom: 10px;
+}
+li:hover {
+    background: #dddddd;
+}
+li img {
+    justify-self: center;
+}
+li a {
+    color: rgb(71, 86, 255);
+    padding: 1.5em 0;
+    text-decoration: none;
+}
